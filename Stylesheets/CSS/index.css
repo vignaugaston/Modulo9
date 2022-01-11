@@ -1,0 +1,44 @@
+.navBar {
+  color: #5c1010;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  font-size: 16px;
+  text-align: center;
+}
+
+.imagelogo {
+  background: transparent;
+}
+
+.h1principal {
+  font-size: 48px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.67px;
+  text-align: left;
+  color: #5c1010;
+}
+
+.prparrafo {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: #5c1010;
+}
+
+.prboton {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.22px;
+  text-align: center;
+  color: #5c1010;
+}
+
+button {
+  background-color: #E0752F;
+  border-radius: 25px;
+  width: 144px;
+  height: 48px;
+}
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,47 @@
+//IMPORTS
+@import "./Partials/fonts";
+@import "./Partials/colors";
+
+.navBar{
+    color: $primary-color;
+    font-family: $font-nav;
+    display: flex;
+    list-style: none;
+    justify-content:space-between;
+    font-size: 16px;
+    text-align: center;
+}
+
+.imagelogo{
+    background: transparent;
+}
+
+.h1principal{
+    font-size: 48px;
+    font-family: $font-titulo;
+    letter-spacing: 0.67px;
+    text-align: left;
+    color: $primary-color;
+}
+
+.prparrafo{
+    font-size: 16px;
+    font-family: $font-parrafo;
+    color: $primary-color;
+}
+
+.prboton{
+    font-size: 16px;
+    font-family: $font-parrafo;
+    letter-spacing: 0.22px;
+    text-align: center;
+    color: $primary-color;
+
+}
+
+button{
+    background-color: $secondary-color;
+    border-radius: 25px;
+    width: 144px;
+    height: 48px;
+}
