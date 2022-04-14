@@ -3,15 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "sass-compile": "sass Stylesheets/SCSS/index.scss Stylesheets/CSS/index.css" ,
-    "sass-watch": "sass --watch Stylesheets/SCSS/index.scss Stylesheets/CSS/index.css" ,
+    "sass-compile": "sass Stylesheets/SCSS/index.scss Stylesheets/CSS/index.css",
+    "sass-watch": "sass --watch Stylesheets/SCSS/index.scss Stylesheets/CSS/index.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "sass": "^1.47.0"
+    "sass": "^1.50.0"
   },
   "dependencies": {
     "anymatch": "^3.1.2",
@@ -31,5 +31,13 @@
     "source-map-js": "^1.0.1",
     "to-regex-range": "^5.0.1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vignaugaston/Modulo9.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vignaugaston/Modulo9/issues"
+  },
+  "homepage": "https://github.com/vignaugaston/Modulo9#readme",
   "description": ""
 }

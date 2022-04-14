@@ -2,46 +2,371 @@
 @import "./Partials/fonts";
 @import "./Partials/colors";
 
-.navBar{
-    color: $primary-color;
-    font-family: $font-nav;
+*{
+    box-sizing: border-box;
+}
+
+.heroDiv{
+    width: 100vw;
+    height: 100vh;
+    // background-color: brown;
+    background-image: url(https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:51795fcc-7085-48a6-bb10-26070be36c9d;revision=0?component_id=d19a04d2-bc92-4068-b4a0-6100c59a0092&api_key=CometServer1&access_token=1649934843_urn%3Aaaid%3Asc%3AUS%3A51795fcc-7085-48a6-bb10-26070be36c9d%3Bpublic_e8e23440e8f0d440e11b800c9e9f7bd5d5371f05);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.head{
     display: flex;
-    list-style: none;
-    justify-content:space-between;
-    font-size: 16px;
+    flex-direction: row;
+    align-items: center;
+}
+
+header nav{
+    width: 100vw;
+    // height: 96px;
+    height: 5vh;
+    display: inline-block;
+}
+
+.imageLogo{
+    padding: 33px 100px;
+    align-items: flex-start;
+}
+
+.list{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    padding: 37px 110px 37px 0px;
+    background-color: transparent;  
+    margin: 0px;
+}
+
+.liNav{
+    color: $white-color;
     text-align: center;
+    font-size: 16px;
+    list-style: none;
+    font-family: $font-nav;
+    padding-left: 40px;
+    text-decoration: none;
 }
 
-.imagelogo{
-    background: transparent;
+hr{
+    color: $secondary-color;
+    border: 1px solid;
+    position: absolute;
+    display: block;
+    width: 100vw;
+    // margin-top: 1vh;
+    top: 76px;
+
 }
 
-.h1principal{
+.firstTitle{
+    color: $fifth-color;
     font-size: 48px;
     font-family: $font-titulo;
     letter-spacing: 0.67px;
     text-align: left;
-    color: $primary-color;
+    position: absolute;
+    margin-left: 6vw;
+    margin-top: 20vh;
+    // top: 254px;
+    // left: 100px;
 }
 
-.prparrafo{
-    font-size: 16px;
-    font-family: $font-parrafo;
-    color: $primary-color;
-}
-
-.prboton{
-    font-size: 16px;
-    font-family: $font-parrafo;
+.firtsParra{
+    color: $fifth-color;
     letter-spacing: 0.22px;
-    text-align: center;
-    color: $primary-color;
-
+    position: absolute;
+    margin-left: 6vw;
+    margin-top: 40vh;
+    // top: 399px;
+    // left: 100px;
+    width: 343px;
+    height: 42px;
+    font-size: 16px;
+    font-family: $font-parrafo;
 }
 
-button{
+.firstButton{
     background-color: $secondary-color;
     border-radius: 25px;
     width: 144px;
     height: 48px;
+    font-size: 16px;
+    font-family: $font-titulo;
+    margin-left: 6vw;
+    margin-top: 50vh;
+    // top: 480px;
+    // left: 100px;
+    width: 144px;
+    height: 48px;
+    position: absolute;
+    border: none;
+}
+
+.firstLink{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: $font-titulo;
+    text-align: center;
+    color: $fifth-color;
+}
+
+// SEGUNDA PAGINA
+
+.secondPage{
+    width: 100vw;
+    height: 100vh;
+    // background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.secondsTitles{
+    padding: 167px 0 0 0;
+    margin: 0px 50vh 0px;
+    align-items: center;
+}
+
+.secondTitle{
+    color: $tertiary-color;
+    font-size: 39px;
+    font-family: $font-titulo;
+    letter-spacing: 0.55px;
+}
+
+.secondTitleOr{
+    color: $secondary-color;
+    font-size: 39px;
+    font-family: $font-titulo;
+}
+
+.secondParra{
+    color: $tertiary-color;
+    font-size: 16px;
+    font-family: $font-parrafo;
+    letter-spacing: 0.22px;
+    width: 768px;
+    margin: 44px 50vh 164px;
+    align-items: center;
+}
+
+.rectangle{
+    background-color: $secondary-color;
+    width: 32px;
+    height: 384px;
+    margin: 0px;
+    position: absolute;
+}
+
+// TERCERA PAGINA
+
+.thirdPage{
+    width: 100vw;
+    height: 100vh;
+    background-color: $grey-color;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondRectangle{
+    background-color: $secGrey-color;
+    width: 30vw;
+    height: 100vh;
+    position: absolute;
+    left: 70vw;
+}
+
+.houseImage{
+    width: 966px;
+    height: 552px;
+    position: absolute;
+}
+
+.thirdRectangle{
+    background-color: $secondary-color;
+    position: absolute;
+    width: 471px;
+    height: 304px;
+    margin: 360px 200px 110px 695px;
+}
+
+.fourthTitle{
+    font-size: 16px;
+    font-family: $font-parrafo;
+    color: $white-color;
+    letter-spacing: 0.22px;
+    margin: 68px 0px 0px 50px;
+}
+
+.fivethTitle{
+    font-size: 39px;
+    font-family: $font-titulo;
+    color: $white-color;
+    letter-spacing: 0.55px;
+    margin: 0px 0px 0px 50px;
+}
+
+.thirdParra{
+    font-size: 16px;
+    font-family: $font-parrafo;
+    color: $white-color;
+    letter-spacing: 0.22px;
+    margin: 0px 0px 0px 50px;
+}
+
+// CUARTA PAGINA
+
+.fourthPage{
+    width: 100vw;
+    height: 100vh;
+    background-color: $white-color;
+    position: absolute;
+    // display: flex;
+    // flex-direction: row;
+    // justify-content: center;
+    // align-items: center;
+}
+
+.roadImage{
+    width: 55vw;
+    height: 100vh;
+    // width: 770px;
+    // height: 768px; 
+    left: 45vw;
+    position: absolute;
+    text-align: right;
+    // margin: 0px 0px 0px 596px;
+}
+
+.accordion{
+    width: 50vw;
+    margin: 20vh 0 0 10vw;
+    position: absolute;
+}
+
+.accordion-button{
+    color: $fourth-color;
+    background-color: $grey-color;
+}
+
+.accordion-body{
+    font-size: 16px;
+    font-family: $font-parrafo;
+    letter-spacing: 0.22px;
+    margin: 35px;
+    color: $fourth-color;
+}
+
+// QUINTA PAGINA
+
+.fifthPage{
+    margin: 100vh 0 0 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: $grey-color;
+    display: flex;
+    flex-direction: column;
+}
+
+.fivethRectangle{
+    background-color: $secGrey-color;
+    width: 30vw;
+    height: 100vh;
+    position: absolute;
+    left: 70vw;
+}
+
+.bothTitles{
+    margin: 120px 0 0 100px;
+    font-size: 39px;
+    font-family: $font-titulo;
+    letter-spacing: 0.55px;
+}
+
+.blackTitle{
+    color: $tertiary-color;
+}
+
+.orangeTitle{
+    color: $secondary-color;
+}
+
+.firstForm{
+    margin: 60px 0 0 100px;
+    color: $fourth-color;
+    font-family: $font-parrafo;
+    font-size: 16px;
+    letter-spacing: 0.22px;
+}
+
+.imputClass{
+    margin-top: 5px;
+    border: none;
+    border-bottom: 2px solid $secGrey-color;
+    width: 40vw;
+    background-color: $grey-color;
+    color: $fourth-color;
+    font-family: $font-parrafo;
+    font-size: 16px;
+    letter-spacing: 0.22px;
+    resize: none;
+}
+
+.contactImage{
+    width: 40vw;
+    height: 60vh;
+    position: absolute;
+    margin-top: 15vh;
+    margin-left: 50vw;
+}
+
+.secondButton{
+    background-color: $secondary-color;
+    color: $white-color;
+    border-radius: 25px;
+    width: 144px;
+    height: 48px;
+    font-size: 16px;
+    font-family: $font-titulo;
+    border: none;
+    // top: 480px;
+    // left: 100px;
+    width: 144px;
+    height: 48px;
+    position: absolute;
+    margin-top: 50px;
+}
+
+footer{
+    background-color: $tertiary-color;
+    color: $fifth-color;
+    font-size: 16px;
+    font-family: $font-parrafo;
+    letter-spacing: 0.22px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100px;
+}
+
+.imageLogo2{
+    width: 85px;
+    height: 20px;
+    margin-left: 60vw;
+}
+
+.lastParra{
+    margin-top: 2vh;
 }
